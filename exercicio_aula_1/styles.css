@@ -1,0 +1,45 @@
+.centralizar{
+    justify-content:sspace-around;
+}
+.superior-e {
+    background-color: rgb(127, 121, 133);
+    height: 10vh;
+    width: 30vh;
+    display: inline-block;
+}
+
+.superior-d {
+    background-color: rgb(241, 109, 0);
+    height: 10vh;
+    width: 61vh;
+    display: inline-block;
+
+}
+
+.meio-e {
+    background-color: rgb(221, 76, 161);
+    height: 30vh;
+    width: 30vh;
+    display: inline-flex;
+}
+
+.meio-c {
+    background-color: rgb(221, 158, 42);
+    height: 30vh;
+    width: 30vh;
+    display: inline-flex;
+}
+
+.meio-d {
+    background-color: rgb(83, 131, 21);
+    height: 30vh;
+    width: 30vh;
+    display: inline-flex;
+}
+
+.inferior {
+    background-color: rgb(144, 151, 219);
+    height: 10vh;
+    width: 91vh;
+    display: flex;
+}
