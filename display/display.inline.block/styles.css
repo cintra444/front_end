@@ -1,0 +1,9 @@
+.inline-block{
+    display:inline-block;
+    background-color: chocolate;
+}
+.elemento{
+    height: 4rem;
+    width: 4rem;
+    background-color:rebeccapurple;
+}

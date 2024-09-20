@@ -1,0 +1,13 @@
+.container{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    display:flex;
+}
+.elementos{
+    background-color: blue;
+    color: black;
+    width: 4rem;
+    height: 4rem;
+}
