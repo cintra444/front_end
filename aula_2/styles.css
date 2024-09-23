@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container-geral{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100vh;
+    background-color: crimson;
+}
+.cabecalho{
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    justify-content: space-between;
+}
+.top-left{
+    width: 35rem;
+    height: 6rem;
+    background-color: chartreuse;
+}
+.top-right{
+    width: 20rem;
+    height: 6rem;
+    background-color: aqua;
+
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 1rem;
+}
+.conteudo{
+    width: 20rem;
+    height: 10rem;
+    background-color:gray ;
+}
+.rodape{
+    height: 6rem;
+    background-color: coral;
+}

@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(24, 23, 23);
+    color: azure;
+}
+form{
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 0.8rem;
+}
+
+.titulo-pagina {
+    text-align: center;
+}
+
+.titulo-pagina p {
+    font-size: 0.9rem;
+}
+
+.titulo-pagina h1 {
+    font-size: 3rem;
+}
+
+.campo-informacao {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+}
+.campo-stack{
+    display: flex;
+    gap: 0.3;
+    margin-bottom: 12px;
+}
+.campo-senioridade{
+    gap: 0.3;
+    margin-bottom: 12px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+
+}
