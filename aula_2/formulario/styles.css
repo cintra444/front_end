@@ -8,9 +8,10 @@ body {
     color: azure;
 }
 form{
-    background-color: aqua;
+    background-color: rgb(81, 97, 9);
     border-radius: 8px;
     padding: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .titulo-pagina {
@@ -48,5 +49,24 @@ form{
 .checkbox{
     display: flex;
     flex-direction: column;
+
+}
+.container-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container-botao button{
+    width: 6rem;
+    height: 3rem;
+    background-color: rgb(29, 25, 25);
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(30, 34, 34);
+    transition: all;
 
 }
