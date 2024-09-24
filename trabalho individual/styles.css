@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 main {
@@ -18,10 +19,11 @@ main {
     flex-grow: 1;
     flex-direction: column;
     max-width: 80%;
-    margin: 1px;
+    
 }
 
 .topo{
+
     background-color: brown;
     display: flex;
     justify-content: space-around;
@@ -32,7 +34,7 @@ main {
 h2 {
     font-size: 1rem;
     font-family:Arial, Helvetica, sans-serif;
-     padding: 3px;
+    padding: 3px;
     color: rgb(255, 255, 255);
 }
 
@@ -57,24 +59,23 @@ h1 {
     background-color: rgb(61, 7, 54);
     color: white;
     font-size: 1rem;
-    word-break: break-work;
+    word-break: break-word;
     padding-left: 10px;
     padding-right: 10px;
-    flex-direction: column;
-  
 }
 .img{
     background-color: rgb(185, 182, 178);
-    padding: auto;
-    margin-inline: 1px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .servicos {
     background-color: blue;
     display: flex;
     margin: 10px;
-    width: 20vw;
-    height: 20vh;
+    flex-wrap:wrap;
+    align-content: center;
     
 }
 
