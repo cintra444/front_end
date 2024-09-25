@@ -1,0 +1,31 @@
+.nota{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 255, 0);
+    width: 14rem;
+    font-weight: 10px;
+    align-items: center;
+    padding: 10px;
+    color: black;
+
+}
+.numero{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    width: 10rem;
+    font-weight: 10px;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+.idade{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 10rem;
+    align-items: center;
+    font-weight: 10px;
+    padding: 10px;
+    color: rgb(5, 5, 5);
+}
